@@ -1,0 +1,19 @@
+[package]
+name = "dwflambda"
+version = "0.0.1-alpha"
+edition = "2021"
+readme = "README.md"
+authors = ["Njagi Mwaniki <njagi+bio@njagi.me>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "^0.4.0"
+fbox = { git = "https://github.com/urbanslug/fbox.git" }
+indicatif = "0.16.2"
+
+[dev-dependencies]
+pretty_assertions = "1.1.0"
+ndarray = "^0.15.4"
+ndarray-to-img = { git = "https://github.com/urbanslug/ndarray-to-img.git" }
+eds = { git = "ssh://git@github.com/urbanslug/eds.git" }
