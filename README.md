@@ -1,6 +1,6 @@
 # DWFλ
 
-
+wf-λ for degenerate strings
 
 ### Citation
 
